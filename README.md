@@ -1,35 +1,70 @@
-# atl-lux-client
+# Getting Started with Create React App
 
-Application for finding luxury homes in the Atlanta, Georgia Area. The app will allow users to search for sales/rental listings, save their favorites, and contact the right agent. Agents will be able to create, update and destroy a listing. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[View ERD](https://dm2306files.storage.live.com/y4mtRkIi0ejURFShwVdvtEHaU9c5t4hcEgfU1KsNjjqdvBs5rkNzjmofgZHQnLXWo6Zl7uVRpHVo8EZ6Zd23A2yUWDuKtlJTLKDBSgrsWBRbFXm_ZDCR-sFtKhjzYpO4coo4CtxrSD2hUIDaLz64NgPyMDY0USdt3N0K3bw8rVvBUTW2jDqlmE5bHvkb838riPk?width=642&height=402&cropmode=none) |[View WireFrames](https://1drv.ms/u/s!AstWKsf2p6kyqAq-Tp5szgnlIFSM?e=YUzyNB)| [View Planning Doc](https://1drv.ms/w/s!AstWKsf2p6kyqBADdlnkEX2ss9JG?e=yIj5WR)
+## Available Scripts
 
-### MVP
-1. Create account(user or admin)
-2. Add a listing(for admin)
-3. Save listing(for user)
+In the project directory, you can run:
 
-## Project Technology
+### `npm start`
 
-### Primary Considerations
--React
--Mongo
--Express
--Node
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Secondary Considerations
--API from rapidapi.com
-- Recoil
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Daily Milestones
+### `npm test`
 
-- Day One: Back end set up for listings, agents (reach full CRUD)
-- Day Two: Set up front end, connect to back end, slight tests
-- Day Three: User Profile
-- Day Four: Set up saved listings, contact agent form
-- Day Five: Rentals / Forms
-- Day Six: Sales / Forms
-- Day Seven: Agent / Listing Forms and addons
-- Day Eight: Testing, Work on bonus
-- Day Nine: Finish testing, finish styling, start Deployment
-- Day Ten: Last day for deployment
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

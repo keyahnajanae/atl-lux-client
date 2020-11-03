@@ -1,0 +1,252 @@
+
+html,
+body {
+	height: 100%;
+	font-family: "Sarabun", sans-serif;
+	-webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #081624;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 18px;
+	color: #73778e;
+	line-height: 1.6;
+}
+
+img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+/*---------------------
+Helper CSS
+ -----------------------*/
+
+.section-title h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 80px;
+	padding-left: 25px;
+}
+
+.section-title h2:before {
+	position: absolute;
+	content: "";
+	width: 7px;
+	height: 25px;
+	left: 0;
+	top: 11px;
+	background: #12c7b8;
+	line-height: 1;
+}
+
+.section-title.st-light h2 {
+	color: #fff;
+}
+
+.section-title.st-light h2:before {
+	background: #081624;
+}
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.spad {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+	color: #fff;
+}
+
+/*---------------------
+Commom elements
+ -----------------------*/
+
+/* buttons */
+
+.site-btn {
+	display: inline-block;
+	border: 1px solid #12c7b8;
+	font-size: 14px;
+	font-weight: 600;
+	min-width: 131px;
+	padding: 14px 25px;
+	text-transform: uppercase;
+	background: transparent;
+	color: #12c7b8;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+}
+
+.site-btn:hover {
+	color: #12c7b8;
+}
+
+.site-btn.sb-big {
+	font-size: 18px;
+	padding: 19px 35px;
+}
+
+.site-btn.sb-light {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.site-btn.sb-light:hover {
+	color: #fff;
+}
+
+.site-btn.sb-solid {
+	background: #12c7b8;
+	color: #fff;
+}
+
+.site-btn.sb-solid:hover {
+	color: #fff;
+}
+
+.site-btn.sb-fade {
+	background: #e0e1e8;
+	color: #fff;
+	border: 1px solid #e0e1e8;
+}
+
+.site-btn.sb-fade:hover {
+	color: #fff;
+}
+
+
+
+/* overlay at start */
+
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+/* overlay animate in */
+
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+
+/* overlay animate out */
+
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+/* content at start */
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+/* content animate it */
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+
+/* content animate out */
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
+
+
+.page-top-section {
+	height: 619px;
+	position: relative;
+}
+
+.page-top-text {
+	padding-top: 250px;
+}
+
+.page-top-text h2 {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.page-top-text p {
+	font-weight: 300;
+	font-size: 24px;
+}
+
+
