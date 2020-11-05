@@ -2,6 +2,7 @@ import React, { useState, useEffect} from "react";
 import Properties from "../components/Properties/Properties";
 import PropertyModel from '../models/PropertyModel'
 
+
 function PropertyList(props) {
   const [properties, setProperties] = useState(null);
 

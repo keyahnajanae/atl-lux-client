@@ -20,10 +20,12 @@
 	margin-left: 50em;
 }
 #top-about{
-	
 	background: url('../../images/page-top-bg/1-4.jpg');
 	background-position: center;
 	background-size: cover;
+
+	
+	
 }
 
 .about-slider .owl-nav {

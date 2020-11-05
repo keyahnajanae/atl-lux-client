@@ -22,7 +22,7 @@ const Dev = (props) => {
 								<span>from</span>
 								<h4>-$145,000</h4>
 							</div>
-							<a href="" class="site-btn">MORE INFO</a>
+							<a href="/" class="site-btn">MORE INFO</a>
 						</div>
 					</div>
 				</div>
@@ -67,7 +67,7 @@ const Dev = (props) => {
 								<span>from</span>
 								<h4>-$220,000</h4>
 							</div>
-							<a href="" class="site-btn">MORE INFO</a>
+							<a href="/" class="site-btn">MORE INFO</a>
 						</div>
 					</div>
 				</div>
@@ -82,7 +82,7 @@ const Dev = (props) => {
 								<span>from</span>
 								<h4>-$510,000</h4>
 							</div>
-							<a href="" class="site-btn">MORE INFO</a>
+							<a href="/" class="site-btn">MORE INFO</a>
 						</div>
 					</div>
 				</div>
@@ -97,7 +97,7 @@ const Dev = (props) => {
 								<span>from</span>
 								<h4>-$600,000</h4>
 							</div>
-							<a href="" class="site-btn">MORE INFO</a>
+							<a href="/" class="site-btn">MORE INFO</a>
 						</div>
 					</div>
 				</div>

@@ -1,12 +1,14 @@
 
 .footer-section {
 	padding: 65px 0;
-    background: #353649;
+	background: #353649;
+	
 
 }
 
 .footer-widget {
 	margin-bottom: 40px;
+	margin-left: -20em;
 }
 
 .footer-widget h5 {

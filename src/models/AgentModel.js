@@ -1,4 +1,5 @@
-const URL = 'http://localhost:3001/api/v1/atl-lux/agents'
+const URL = 'http://localhost:3001/api/v1/atl-lux/agent'
+
 
 
 class AgentModel {
@@ -12,10 +13,17 @@ class AgentModel {
     }
 
     static delete = (agentId) => {
-        return fetch(`${URL}/${agentId}`).then(response => response.json());
+        return fetch(`${URL}/${agentId}`, {
+            method: "DELETE",
+            headers: {
+                authorization: `Bearer ${localStorage.uid}`,
+                "Content-Type": "application/json"
+            }
+        }).then(response => response.json());
     }
 
     static create = (agentData) => {
+        console.log(agentData)
         return fetch(URL, {
             method: "POST",
             headers: {

@@ -16,9 +16,9 @@ const Footer = (props) => {
 					<div class="footer-widget">
 						<h5>COMPANY</h5>
 						<ul>
-							<li><a href="">About Us</a></li>
-							<li><a href="">Offices</a></li>
-							<li><a href="">Contact Us</a></li>
+							<li><a href="/atl-lux/about">About Us</a></li>
+							<li><a href="/atl-lux/contact">Offices</a></li>
+							<li><a href="/atl-lux/contact">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -26,9 +26,9 @@ const Footer = (props) => {
 					<div class="footer-widget">
 						<h5>LEGAL</h5>
 						<ul>
-							<li><a href="">Documents</a></li>
-							<li><a href="">How to buy a house</a></li>
-							<li><a href="">Terms & Condition</a></li>
+							<li><a href="/atl-lux">Documents</a></li>
+							<li><a href="/atl-lux">How to buy a house</a></li>
+							<li><a href="/atl-lux">Terms & Condition</a></li>
 						</ul>
 					</div>
 				</div>
@@ -36,11 +36,11 @@ const Footer = (props) => {
 					<div class="footer-widget">
 						<h5>SOCIAL</h5>
 						<div class="footer-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-youtube-play"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
+							<a href="/atl-lux"><i class="fa fa-facebook"></i></a>
+							<a href="/atl-lux"><i class="fa fa-linkedin"></i></a>
+							<a href="/atl-lux"><i class="fa fa-twitter"></i></a>
+							<a href="/atl-lux"><i class="fa fa-youtube-play"></i></a>
+							<a href="/atl-lux"><i class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>

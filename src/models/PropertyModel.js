@@ -15,8 +15,16 @@ class PropertyModel {
     }
 
     static delete = (propertyId) => {
-        return fetch(`${URL2}/${propertyId}`).then(response => response.json());
-    }
+            return fetch(`${URL2}/${propertyId}`, {
+                method: "DELETE",
+                headers: {
+                    authorization: `Bearer ${localStorage.uid}`,
+                    "Content-Type": "application/json"
+                }
+            })
+            .then(response => response.json());
+        }
+    
 
 
     static show = (propertyId) => {
@@ -24,9 +32,11 @@ class PropertyModel {
     }
 
     static create = (propertyData) => {
+        console.log("propertyData",propertyData)
         return fetch(URL2, {
             method: "POST",
             headers: {
+                authorization: `Bearer ${localStorage.uid}`,
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(propertyData)

@@ -1,0 +1,94 @@
+
+.contact-section {
+	position: relative;
+	padding-bottom: 290px;
+}
+
+.contact-section .container {
+	position: relative;
+	z-index: 4;
+}
+
+.contact-info-box {
+	background: #fff;
+	padding: 50px 62px 83px;
+}
+
+.contact-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 38px;
+}
+
+.contact-info .ci-item {
+	display: inline-block;
+	max-width: 240px;
+	width: 100%;
+	margin-right: 30px;
+	margin-bottom: 40px;
+}
+
+.contact-info .ci-item:last-child {
+	margin-right: 0;
+}
+
+.contact-info .ci-item .ci-icon {
+	float: left;
+	margin-right: 25px;
+}
+
+.contact-info .ci-item p {
+	font-size: 14px;
+	font-weight: 300;
+	color: #081624;
+}
+
+.contact-form .form-field {
+	position: relative;
+}
+
+.contact-form .form-field img {
+	position: absolute;
+	left: 5px;
+	top: 7px;
+}
+
+.contact-form .form-field input,
+.contact-form .form-field textarea {
+	font-size: 14px;
+	color: #73778e;
+	font-weight: 300;
+	padding: 0 20px 10px 40px;
+	max-width: 100%;
+	width: 100%;
+	height: 44px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid #dadcde;
+}
+
+.contact-form .form-field textarea {
+	height: 60px;
+}
+
+.contact-form .site-btn {
+	min-width: 88px;
+}
+
+.map {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+    background: #ddd;
+    border: 0;
+}
+
+.map iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}

@@ -8,13 +8,14 @@ import './Prop.css'
 
 function NewProperty(props) {
     const [title, setTitle] = useState("");
-    const [agent, setAgent] = useState("");
+    const [user, setUser] = useState(null);
     const [type, setType] = useState("");
     const [baths, setBaths] = useState(""); 
     const [beds, setBeds] = useState(""); 
     const [price, setPrice] = useState("");
     const [address, setAddress] = useState("");
-    const [photos, setPhotos] = useState("")
+    const [photos, setPhotos] = useState("");
+    const [description, setDescription] = useState("")
  
 
 
@@ -22,7 +23,7 @@ function NewProperty(props) {
 function handleSubmit(event) {
     event.preventDefault();
 
-    PropertyModel.create({ title, agent, type, baths, beds, price, address, photos }).then(
+    PropertyModel.create({ title, user, type, baths, beds, price, address, photos }).then(
       (data) => {
         props.history.push(`/atl-lux/`);
       }
@@ -56,6 +57,16 @@ function handleSubmit(event) {
             name='type'
             onChange={(e) => setType(e.target.value)}
             value={type}
+          />
+  </div>
+  <div class="form-group col-md-6">
+  <label htmlFor='description'>description</label>
+          <input
+          class="form-control"
+            type='text'
+            name='description'
+            onChange={(e) => setDescription(e.target.value)}
+            value={description}
           />
   </div>
 </div>
