@@ -1,6 +1,7 @@
-import HeroSlider from '../components/HeroSlider/HeroSlider'
+
 import { Link } from 'react-router-dom';
 import PropertyModel from '../models/PropertyModel'
+import './Login.css'
 
 
 
@@ -17,13 +18,18 @@ const DeleteProperty = (props) => {
 
     return (
         <>
-        <HeroSlider/>
-        <h1>Are you sure you want to delete ?</h1>
-         <form onSubmit={handleSubmit}><input class="site-btn" type='submit' value='Delete'/></form>
+        <body class="login">
+          <main class="login-form"></main>
+       <div class="cotainer" id="cot-2">
+        <h1>Are You Sure You Want To Delete ?</h1>
+         <form id="d-p" onSubmit={handleSubmit}><input class="site-btn" type='submit' value='Delete'/></form>
 
          
-        <h3><Link to={`/atl-lux/for-sale/`}>No</Link></h3>
+        <Link id="dip-2" class="site-btn"to={`/atl-lux/for-sale/`}>No</Link>
+        </div>
+        </body>
         </>
+        
       
     )
 }

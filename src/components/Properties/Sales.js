@@ -28,7 +28,7 @@ const Sales = (props) => {
                             <p>{sale.description}</p>
                             <div class="dev-price">
 								<span>from</span>
-                            <h4>-{sale.price}</h4>
+                            <h4>-${sale.price}</h4>
 							</div>
                           
                             <Link class="site-btn" to={`/atl-lux/properties/${sale._id}`}>MORE INFO </Link>

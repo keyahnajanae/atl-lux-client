@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import AuthModel from "../models/AuthModel";
 import UserModel from "../models/UserModel";
-import HeroSlider from '../components/HeroSlider/HeroSlider'
 import { useSetRecoilState } from "recoil";
 import { userState } from "../recoil/atoms";
 
@@ -27,7 +26,7 @@ function Login(props) {
 
   return (<>
  
-    <body class="login">
+    <body id="login-2" class="login">
 <main class="login-form">
     <div class="cotainer">
         <div class="row">

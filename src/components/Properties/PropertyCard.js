@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import HeroSlider from '../../components/HeroSlider/HeroSlider'
 import Action from '../../components/Features/Action'
 import propFeat from '../../images/property-features/2.jpg'
+import propFeat2 from '../../images/property-gallery/1.jpg'
+import propFeat3 from '../../images/property-gallery/3.jpg'
+import propFeat4 from '../../images/property-gallery/2.jpg'
 
 
 const PropertyCard = (props) => {
@@ -51,14 +54,27 @@ const PropertyCard = (props) => {
 				</div>
 				<div class="col-xl-6 col-lg-5 text-lg-right text-left">
 					<div class="property-price">
-						<h2>{price}</h2>
+						<h2> $ {price}</h2>
 						<p>(taxes excluded)</p>
+						<img src={photos} alt=""/>
 					</div>
 				</div>
+			
 				<>
   <Link to={`/atl-lux/properties/${_id}/edit`} class="site-btn" id="edit-btn">Edit</Link>
   <Link to={`/atl-lux/properties/${_id}/delete`} class="site-btn" id="del-btn">Delete</Link>
   </>
+  {/* <div class="property-features-slider fotoroma">
+		
+			<img class="p-c" src={propFeat2} alt=""/>
+			
+		
+			<img class="p-c" src={propFeat4} alt=""/>
+			
+		
+			<img class="p-c"  src={propFeat3} alt=""/>
+			
+	</div> */}
 			</div>
 		</div>
 	</section>
@@ -89,7 +105,7 @@ const PropertyCard = (props) => {
 		<div class="container-fluid pt-5">
 			<div class="row">
 				<div class="col-lg-6 p-0">
-					<img src={photos} alt=""/>
+					<img class="p-c-p" src={photos} alt=""/>
 				</div>
 				<div class="col-lg-6 p-0 d-flex align-items-center justify-content-center">
 					<div class="property-text-warp">

@@ -3,10 +3,10 @@
 
 .login{
     margin: 0;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.6;
-    color: #212529;
+    color: aliceblue;
     text-align: left;
     background: url('../images/slider/1.jpg');
 	background-position: center;
@@ -33,6 +33,10 @@
     
 }
 
+#cot-2{
+margin-left: 27em;
+
+}
 
 .login-form .row
 {
@@ -42,5 +46,68 @@
 
 .cotainer{
     min-height: 50em;
-    margin-top: 20em;
+    margin-top: 30em;
+}
+
+
+
+#d-p{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 35%;
+   
+}
+
+#dip-2{
+    margin-left: 35%;
+}
+
+.a-a{
+    margin-left: -8em;
+    margin-bottom: 1.5em;
+}
+
+#a-a-s{
+    margin-left: 20em;
+    margin-top: 3em;
+}
+
+#a-s-p{
+    margin-left: 20em;
+    margin-top: 3em;
+}
+
+#a-s-p-2{
+    margin-left: 15em;
+    margin-top: 3em;
+}
+
+#c-c-2{
+    margin-left: -5em;
+}
+
+#login-2{
+    color: black;
+    font-size: 1em;
+}
+#login-3{
+    color: black;
+    font-size: 1em;
+}
+
+#u-u{
+    color:aliceblue
+}
+
+#a-n{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+   
+}
+
+#a-m{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 2em;
+   
 }

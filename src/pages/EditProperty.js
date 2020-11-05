@@ -1,6 +1,7 @@
 import React from 'react';
 import PropertyModel from '../models/PropertyModel';
-import HeroSlider from '../components/HeroSlider/HeroSlider'
+
+import './Login.css'
 
 class EditProperty extends React.Component {
     state = {
@@ -48,12 +49,15 @@ class EditProperty extends React.Component {
     render() {
         return (
             <>
-            <HeroSlider />
-            <div>
-                <h2>Edit {this.state.formTitle}</h2>
-                <form onSubmit={this.handleSubmit}>
+            
+                
+<body className="login">
+  <main class="login-form">
+    <div id="c-c-2" className="cotainer">
+                <h2 class="a-a">Edit {this.state.formTitle}</h2>
+                <form id="e-p"class="e-p"onSubmit={this.handleSubmit}>
                 <div class="form-row">
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-4">
   <label  htmlFor='title'>Title</label>
           <input
             class="form-control"
@@ -63,7 +67,7 @@ class EditProperty extends React.Component {
             value={this.state.title}
           />
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-4">
   <label htmlFor='description'>description</label>
           <input
           class="form-control"
@@ -75,7 +79,7 @@ class EditProperty extends React.Component {
   </div>
   </div>
   <div class="form-row">
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-4">
   <label htmlFor='type'>Type (Please enter for-sale or for-rent)</label>
           <input
           class="form-control"
@@ -85,7 +89,7 @@ class EditProperty extends React.Component {
             value={this.state.type}
           />
   </div>
-</div>
+
 <div class="form-group col-md-4">
 <label htmlFor='beds'>Bed</label>
           <input
@@ -96,6 +100,8 @@ class EditProperty extends React.Component {
             value={this.state.beds}
           />
 </div>
+</div>
+<div class="form-row">
 <div class="form-group col-md-4">
 <label htmlFor='baths'>Baths</label>
           <input
@@ -106,8 +112,9 @@ class EditProperty extends React.Component {
             value={this.state.baths}
           />
 </div>
-<div class="form-row">
-  <div class="form-group col-md-6">
+
+
+  <div class="form-group col-md-4">
   <label htmlFor='price'>Price</label>
           <input
           class="form-control"
@@ -116,7 +123,9 @@ class EditProperty extends React.Component {
             onChange={this.handleChange}
             value={this.state.price}
           />
+          </div>
   </div>
+  <div class="form-row">
   <div class="form-group col-md-4">
   <label htmlFor='photos'>Image URL</label>
           <input
@@ -127,7 +136,7 @@ class EditProperty extends React.Component {
             value={this.state.photos}
           />
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-4">
   <label htmlFor='address'>address</label>
           <input
           class="form-control"
@@ -136,11 +145,15 @@ class EditProperty extends React.Component {
             onChange={this.handleChange}
             value={this.state.address}
           />
+          </div>
   </div>
+  <div class="form-row">
+<input id="a-s-p-2" class="site-btn" type='submit' value='Save!' />
 </div>
-<input class="site-btn" type='submit' value='Save!' />
 </form>
 </div>
+</main>
+</body>
 </>
         )
     }

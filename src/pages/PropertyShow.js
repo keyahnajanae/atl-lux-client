@@ -1,7 +1,7 @@
 import React from "react";
 import PropertyCard from "../components/Properties/PropertyCard";
 import GetProperties from "../hooks/GetProperties";
-import { Link } from 'react-router-dom';
+
 
 
 function PropertyShow(props) {

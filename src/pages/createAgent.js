@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import AgentModel from '../models/AgentModel'
-import HeroSlider from '../components/HeroSlider/HeroSlider'
+import'./Login.css'
 
 
 
@@ -26,15 +26,19 @@ function handleSubmit(event) {
 
   return (
     <>
-    <HeroSlider/>
+    
    
     
-      <h2>Add Agent</h2> 
-
+    
+<body className="login">
+  
+<main class="login-form">
+  <div className="cotainer">
  <form onSubmit={handleSubmit}>
+ <h2 class="a-a">Add Agent</h2> 
 <div class="form-row">
-  <div class="form-group col-md-6">
-  <label  htmlFor='name'>Name</label>
+  <div class="form-group col-md-4">
+  <label  htmlFor='name'>name</label>
           <input
             class="form-control"
             type='text'
@@ -43,8 +47,8 @@ function handleSubmit(event) {
             value={name}
           />
   </div>
-  <div class="form-group col-md-6">
-  <label htmlFor='experience'>experience (Please enter in years)</label>
+  <div class="form-group col-md-5">
+  <label htmlFor='experience'>experience(minimalist, etc.)</label>
           <input
           class="form-control"
             type='text'
@@ -53,7 +57,9 @@ function handleSubmit(event) {
             value={experience}
           />
   </div>
-  <div class="form-group col-md-6">
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-4">
   <label htmlFor='agency'>agency</label>
           <input
           class="form-control"
@@ -63,8 +69,8 @@ function handleSubmit(event) {
             value={agency}
           />
   </div>
-</div>
-<div class="form-group col-md-4">
+
+<div class="form-group col-md-5">
 <label htmlFor='number'>number</label>
           <input
           class="form-control"
@@ -73,9 +79,13 @@ function handleSubmit(event) {
             onChange={(e) => setNumber(e.target.value)}
             value={number}
           />
+          </div>
 </div>
-<input class="site-btn" type='submit' value='Submit' />
+<input id="a-a-s" class="site-btn" type='submit' value='Submit' />
 </form>
+</div>
+</main>
+</body>
 </>
   );
   }

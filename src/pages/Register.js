@@ -25,7 +25,7 @@ function Register(props) {
 
   return (<>
     
-    <body class="login">
+    <body id="login-3"class="login">
 <main class="login-form">
     <div class="cotainer">
         <div class="row">

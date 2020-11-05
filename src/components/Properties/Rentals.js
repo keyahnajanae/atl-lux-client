@@ -26,7 +26,7 @@ const Rentals = (props) => {
                             <p>{rental.description}</p>
                             <div class="dev-price">
 								<span>from</span>
-                            <h4>-{rental.price}</h4>
+                            <h4>-${rental.price}</h4>
 							</div>
                           
                             <Link class="site-btn" to={`/atl-lux/properties/${rental._id}`}>MORE INFO </Link>

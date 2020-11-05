@@ -18,6 +18,7 @@ Header section
 }
 
 
+
 .main-menu {
 	list-style: none;
 }
@@ -43,3 +44,6 @@ Header section
 }
 
 
+.item-user:hover{
+	color: aliceblue;
+}

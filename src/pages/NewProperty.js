@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, Link } from 'react'
 import PropertyModel from '../models/PropertyModel'
-import HeroSlider from '../components/HeroSlider/HeroSlider'
-import './Prop.css'
-
+import'./Login.css'
 
 
 
@@ -32,14 +30,17 @@ function handleSubmit(event) {
 
   return (
     <>
-    <HeroSlider/>
-   
+  
     
-      <h2>New Property</h2> 
-
+      
+      <body class="login">
+     
+<main class="login-form">
+    <div class="cotainer">
  <form onSubmit={handleSubmit}>
+ <h2 class="a-a">New Listing</h2> 
 <div class="form-row">
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-4">
   <label  htmlFor='title'>Title</label>
           <input
             class="form-control"
@@ -49,7 +50,7 @@ function handleSubmit(event) {
             value={title}
           />
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-5">
   <label htmlFor='type'>Type (Please enter for-sale or for-rent)</label>
           <input
           class="form-control"
@@ -59,7 +60,7 @@ function handleSubmit(event) {
             value={type}
           />
   </div>
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-9">
   <label htmlFor='description'>description</label>
           <input
           class="form-control"
@@ -70,6 +71,7 @@ function handleSubmit(event) {
           />
   </div>
 </div>
+<div class="form-row">
 <div class="form-group col-md-4">
 <label htmlFor='beds'>Bed</label>
           <input
@@ -80,7 +82,7 @@ function handleSubmit(event) {
             value={beds}
           />
 </div>
-<div class="form-group col-md-4">
+<div class="form-group col-md-5">
 <label htmlFor='baths'>Baths</label>
           <input
           class="form-control"
@@ -90,8 +92,9 @@ function handleSubmit(event) {
             value={baths}
           />
 </div>
+</div>
 <div class="form-row">
-  <div class="form-group col-md-6">
+  <div class="form-group col-md-4">
   <label htmlFor='price'>Price</label>
           <input
           class="form-control"
@@ -101,7 +104,7 @@ function handleSubmit(event) {
             value={price}
           />
   </div>
-  <div class="form-group col-md-4">
+  <div class="form-group col-md-5">
   <label htmlFor='photos'>Image URL</label>
           <input
           class="form-control"
@@ -111,7 +114,7 @@ function handleSubmit(event) {
             value={photos}
           />
   </div>
-  <div class="form-group col-md-2">
+  <div class="form-group col-md-9">
   <label htmlFor='address'>address</label>
           <input
           class="form-control"
@@ -122,8 +125,11 @@ function handleSubmit(event) {
           />
   </div>
 </div>
-<input class="site-btn" type='submit' value='Save!' />
+<input id="a-s-p"class="site-btn" type='submit' value='Save!' />
 </form>
+</div>
+</main>
+</body>
 </>
   );
   }
