@@ -1,6 +1,6 @@
 # atl-lux-client #
 
-Application for finding luxury homes in the Atlanta, Georgia Area. The app will allow users to search for sales/rental listings, save their favorites, and contact the right agent. Agents will be able to create, update and destroy a listing. 
+Application for finding luxury homes in the Atlanta, Georgia Area. The app will allow users to search for sales/rental listings, create their own listings, contact agents and add their own agents/contractors as well. Agents of ATLLUX will be able to create, update and destroy a listing from a seperate private admin page. 
 
 [View ERD](https://dm2306files.storage.live.com/y4mtRkIi0ejURFShwVdvtEHaU9c5t4hcEgfU1KsNjjqdvBs5rkNzjmofgZHQnLXWo6Zl7uVRpHVo8EZ6Zd23A2yUWDuKtlJTLKDBSgrsWBRbFXm_ZDCR-sFtKhjzYpO4coo4CtxrSD2hUIDaLz64NgPyMDY0USdt3N0K3bw8rVvBUTW2jDqlmE5bHvkb838riPk?width=642&height=402&cropmode=none) |[View WireFrames](https://1drv.ms/u/s!AstWKsf2p6kyqAq-Tp5szgnlIFSM?e=YUzyNB)| [View Planning Doc](https://1drv.ms/w/s!AstWKsf2p6kyqBADdlnkEX2ss9JG?e=yIj5WR)
 
