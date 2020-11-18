@@ -4,7 +4,7 @@ Application for finding luxury homes in the Atlanta, Georgia Area. The app will 
 
 [View ERD](https://dm2306files.storage.live.com/y4mtRkIi0ejURFShwVdvtEHaU9c5t4hcEgfU1KsNjjqdvBs5rkNzjmofgZHQnLXWo6Zl7uVRpHVo8EZ6Zd23A2yUWDuKtlJTLKDBSgrsWBRbFXm_ZDCR-sFtKhjzYpO4coo4CtxrSD2hUIDaLz64NgPyMDY0USdt3N0K3bw8rVvBUTW2jDqlmE5bHvkb838riPk?width=642&height=402&cropmode=none) |[View WireFrames](https://1drv.ms/u/s!AstWKsf2p6kyqAq-Tp5szgnlIFSM?e=YUzyNB)| [View Planning Doc](https://1drv.ms/w/s!AstWKsf2p6kyqBADdlnkEX2ss9JG?e=yIj5WR)
 
-[WireFrame](https://dm2306files.storage.live.com/y4mYE0MMn0HAWDBOP1CfMPBuD7T0AZdUlOmEI-9sLdQiIwqPEqt2KHS2S7WJC7E0uO32aXnPBYPQdSH3EJnbjjGhHExUcIaZAuI-QC3BRpuoMefToMTv5kWZc8kbKKxTgO2DVqEPCeD0iWP6BaMA03p9pPNJKDseTsNjTx9schJ_AIuGsKNoKU5oYPavup3AmDi?width=659&height=660&cropmode=none)
+![ScreenShot](https://dm2306files.storage.live.com/y4mYE0MMn0HAWDBOP1CfMPBuD7T0AZdUlOmEI-9sLdQiIwqPEqt2KHS2S7WJC7E0uO32aXnPBYPQdSH3EJnbjjGhHExUcIaZAuI-QC3BRpuoMefToMTv5kWZc8kbKKxTgO2DVqEPCeD0iWP6BaMA03p9pPNJKDseTsNjTx9schJ_AIuGsKNoKU5oYPavup3AmDi?width=659&height=660&cropmode=none)
 
 ### MVP ###
 1. Create account(user or admin)
