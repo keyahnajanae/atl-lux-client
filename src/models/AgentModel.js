@@ -1,4 +1,4 @@
-const URL = 'http://localhost:3001/api/v1/atl-lux/agent'
+const URL = 'http://localhost:3001/api/v1/atl-lux/agents'
 
 
 
