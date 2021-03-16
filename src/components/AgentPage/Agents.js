@@ -3,10 +3,11 @@ import AgentCard from './AgentCard';
 import './Agents.css'
 
 
-const Agents = (props) => {
-    function generateAgents(agents) {
-        return agents.map(agent => {
-            return <AgentCard key={agent._id} agent={agent} />
+
+const Contractors = (props) => {
+    function generateAgents(contractor) {
+        return contractor.map(agent => {
+            return <AgentCard key={agent._id} property={agent} />
         })
     }
 
@@ -17,4 +18,4 @@ const Agents = (props) => {
     )
 }
 
-export default Agents;
+export default Contractors;

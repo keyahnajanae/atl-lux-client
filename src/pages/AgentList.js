@@ -1,5 +1,4 @@
 import HeroSlider from '../components/HeroSlider/HeroSlider'
-import { Link } from 'react-router-dom';
 import AgentModel from '../models/AgentModel'
 import React, { useEffect, useState} from 'react';
 import Agents from '../components/AgentPage/Agents';
