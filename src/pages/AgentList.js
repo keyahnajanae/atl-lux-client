@@ -17,7 +17,6 @@ function AgentList(props) {
           console.log(agents)
         }).catch(error =>{
           console.log(error)
-          
         });
       }
     useEffect(
@@ -28,7 +27,7 @@ function AgentList(props) {
     );
   
     return (<>
-         <HeroSlider/>
+         {/* <HeroSlider/> */}
       <div>
         <h1 class="a-c">All Contractors</h1>
    

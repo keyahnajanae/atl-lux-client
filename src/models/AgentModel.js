@@ -4,8 +4,9 @@ const URL = 'http://localhost:3001/api/v1/atl-lux/agents'
 
 class AgentModel {
     static all = () => {
-        return fetch(URL).then(response => response.json());
+        return fetch(URL).then(response => response.json())
     }
+    
 
 
     static show = (agentId) => {

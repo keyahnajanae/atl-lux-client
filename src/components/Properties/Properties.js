@@ -3,6 +3,8 @@ import PropertyCard from './PropertyCard';
 import './Properties.css'
 
 
+
+
 const Properties = (props) => {
     function generateProperties(properties) {
         return properties.map(property => {
