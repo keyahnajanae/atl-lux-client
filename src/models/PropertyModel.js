@@ -2,8 +2,8 @@ import axios from 'axios';
 
 
 
-const URL = axios.get('https://git.heroku.com/atl-lux-api.git/api/translations') 
-const URL2 = axios.get('https://git.heroku.com/atl-lux-api.git/api/translations') 
+const URL = 'http://localhost:3001/api/v1/atl-lux' || axios.get('https://atl-lux-api.herokuapp.com/api/translations') 
+const URL2 = 'http://localhost:3001/api/v1/atl-lux/properties' || axios.get('https://atl-lux-api.herokuapp.com/api/translations') 
 
 class PropertyModel {
     static all = () => {
