@@ -1,0 +1,157 @@
+.about-text {
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 120px 0 50px;
+	margin-left: 30em;
+}
+
+.about-text h4 {
+	font-weight: 300;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+ .about-us{
+	margin-left: -5em;
+	text-align: center;
+
+ }
+
+.page-top-text{
+	margin-left: 50em;
+}
+#top-about{
+	background: url('../../images/page-top-bg/1-4.jpg');
+	background-position: center;
+	background-size: cover;
+
+	
+	
+}
+
+.about-slider .owl-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 7;
+	text-align: right;
+}
+
+.member-pic{
+	min-width: 40em;
+	margin-left: 50em;
+}
+
+.about-slider .owl-nav button.owl-next,
+.about-slider .owl-nav button.owl-prev {
+	width: 84px;
+	height: 84px;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background: #12c7b8;
+	color: #fff;
+	font-size: 40px;
+}
+
+.about-slider .owl-nav button.owl-next {
+	background: #fff;
+	color: #12c7b8;
+}
+
+.milestone-warp {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 60px;
+}
+
+.milestone-warp .milestone {
+	-ms-flex: 0 0 20%;
+	-webkit-box-flex: 0;
+	flex: 0 0 20%;
+	max-width: 20%;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.milestone-warp .milestone h2 {
+	font-size: 96px;
+	color: #12c7b8;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.milestone-warp .milestone h4 {
+	font-weight: 700;
+}
+
+.team-section {
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background: #f2f3f4;
+}
+
+.team-member {
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.team-member .member-pic {
+	max-width: 264px;
+	float: left;
+	margin-right: 28px;
+	position: relative;
+}
+
+.team-member .member-link {
+	position: absolute;
+	width: 62px;
+	height: 61px;
+	right: 0;
+	bottom: 0;
+	font-size: 26px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 15px;
+	background: #12c7b8;
+}
+
+.team-member .member-info {
+	padding-right: 20px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.team-member .member-info h4 {
+	font-weight: 700;
+	margin-bottom: 8px;
+	padding-top: 55px;
+}
+
+.team-member .member-info h5 {
+	font-weight: 300;
+	color: #73778e;
+	margin-bottom: 20px;
+}
+
+.team-member .member-info p {
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.about-text-box-warp {
+	padding-top: 5px;
+	padding-bottom: 45px;
+}

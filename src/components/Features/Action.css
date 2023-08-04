@@ -1,0 +1,11 @@
+.call-to-action-section {
+	padding: 60px 0;
+	background: url('../../images/cta-bg.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.call-to-action-section h2 {
+	font-weight: 300;
+	margin-bottom: 36px;
+}

@@ -1,0 +1,14 @@
+
+#hero-slide{
+	
+	background: url('../../images/slider/1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.hero-slide-p{
+    margin-left: -3em;
+}
+.hero-slide{
+    margin-left: -1em;
+}

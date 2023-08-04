@@ -1,0 +1,58 @@
+
+
+.developments-section {
+	background: #f2f3f4;
+	min-width: 60em;
+}
+
+.development-box {
+	background: #fff;
+	margin-bottom: 30px;
+	min-width: 30em;
+	min-height: 40em;
+}
+
+.development-box img {
+	min-width: 100%;
+}
+
+.development-box .dev-text {
+	padding: 25px;
+	overflow: hidden;
+}
+
+.development-box .dev-text h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+
+.development-box .dev-text h5 {
+	font-weight: 400;
+	color: #73778e;
+	margin-bottom: 20px;
+}
+
+.development-box .dev-text p {
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.development-box .dev-price {
+	float: left;
+}
+
+.development-box .dev-price span {
+	font-size: 18px;
+	color: #73778e;
+	font-style: italic;
+}
+
+.development-box .dev-price h4 {
+	font-weight: 700;
+}
+
+.development-box .site-btn {
+	float: right;
+	margin-top: 15px;
+}
